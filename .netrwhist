@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/tommckay/Desktop/AWD/work/depot'
+let g:netrw_dirhist_2='/Users/tommckay/.vim'
+let g:netrw_dirhist_3='/Users/tommckay/Desktop/AWD/work/depot'
+let g:netrw_dirhist_4='/Users/tommckay/Desktop/AWD/work/depot/app'
+let g:netrw_dirhist_5='/Users/tommckay/Desktop/AWD/work/depot/app/controllers'
+let g:netrw_dirhist_6='/Users/tommckay/Desktop/AWD/work/depot'
+let g:netrw_dirhist_7='/Users/tommckay/Desktop/AWD/work/depot/app'
+let g:netrw_dirhist_8='/Users/tommckay/Desktop/AWD/work/depot/app/assets'
+let g:netrw_dirhist_9='/Users/tommckay/Desktop/AWD/work/depot/app/assets/config'
