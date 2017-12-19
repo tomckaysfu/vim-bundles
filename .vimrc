@@ -37,8 +37,8 @@ silent! while 0
 silent! endwhile
 set number
 set showmatch
+set tabstop=2 shiftwidth=2 expandtab
 set showmode
-set shiftwidth=2
 set shiftround
 set autoindent
 set cursorline
@@ -143,3 +143,21 @@ if has('langmap') && exists('+langremap')
   " compatible).
   set nolangremap
 endif
+
+" solarized colorscheme
+syntax enable
+set background=dark
+let g:solarized_termcolors=256
+colorscheme solarized
+
+" leading spaces
+let g:indentLine_leadingSpaceEnabled = 1
+"  should find do/end matches
+runtime macros/matchit.vim
+let mapleader="\<space>"
+nnoremap <leader>t :FZF<cr>
+nnoremap <leader>r :reg<cr>
+nnoremap <leader>s :w<cr>
+nnoremap <leader>n :NERDTreeToggle<CR>
+map <leader>f :s/
+map <leader>. :Tabularize
