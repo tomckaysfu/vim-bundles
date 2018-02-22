@@ -159,5 +159,11 @@ nnoremap <leader>t :FZF<cr>
 nnoremap <leader>r :reg<cr>
 nnoremap <leader>s :w<cr>
 nnoremap <leader>n :NERDTreeToggle<CR>
+nnoremap <leader>h :noh<cr>
+nnoremap <leader>l :set relativenumber!<cr>
 map <leader>f :s/
 map <leader>. :Tabularize
+runtime macros/matchit.vim
+set hlsearch
+set ignorecase
+set smartcase
