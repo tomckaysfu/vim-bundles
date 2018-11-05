@@ -161,9 +161,16 @@ nnoremap <leader>s :w<cr>
 nnoremap <leader>n :NERDTreeToggle<CR>
 nnoremap <leader>h :noh<cr>
 nnoremap <leader>l :set relativenumber!<cr>
+nnoremap <leader>L :ls<cr>
 map <leader>f :s/
 map <leader>. :Tabularize
 runtime macros/matchit.vim
+set relativenumber
 set hlsearch
 set ignorecase
 set smartcase
+nnoremap <leader>a :Ack 
+nnoremap <leader>A :cclose<cr>
+nnoremap <silent><Leader><C-]> <C-w><C-]><C-w>T
+set synmaxcol=120
+
