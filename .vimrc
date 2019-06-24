@@ -41,8 +41,8 @@ set tabstop=2 shiftwidth=2 expandtab
 set showmode
 set shiftround
 set autoindent
-set cursorline
 set ruler
+set cursorline
 " Allow backspacing over everything in insert mode.
 set backspace=indent,eol,start
 set history=200		" keep 200 lines of command line history
@@ -147,8 +147,8 @@ endif
 " solarized colorscheme
 syntax enable
 set background=dark
-let g:solarized_termcolors=256
 colorscheme solarized
+
 
 " leading spaces
 let g:indentLine_leadingSpaceEnabled = 1
