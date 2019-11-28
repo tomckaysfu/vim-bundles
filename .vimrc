@@ -144,11 +144,8 @@ if has('langmap') && exists('+langremap')
   set nolangremap
 endif
 
-" solarized colorscheme
 syntax enable
-set background=dark
-colorscheme solarized
-
+colorscheme onedark
 
 " leading spaces
 let g:indentLine_leadingSpaceEnabled = 1
@@ -162,6 +159,7 @@ nnoremap <leader>n :NERDTreeToggle<CR>
 nnoremap <leader>h :noh<cr>
 nnoremap <leader>l :set relativenumber!<cr>
 nnoremap <leader>L :ls<cr>
+nnoremap <leader>w <C-w>w
 map <leader>f :s/
 map <leader>. :Tabularize
 runtime macros/matchit.vim
@@ -173,4 +171,11 @@ nnoremap <leader>a :Ack
 nnoremap <leader>A :cclose<cr>
 nnoremap <silent><Leader><C-]> <C-w><C-]><C-w>T
 set synmaxcol=120
+set updatetime=250
 
+
+set backupdir=.backup/,~/.backup/,/tmp//
+set directory=.swp/,~/.swp/,/tmp//
+set undodir=.undo/,~/.undo/,/tmp//
+let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -l -g ""'
+let NERDTreeShowHidden=1
