@@ -179,3 +179,4 @@ set directory=.swp/,~/.swp/,/tmp//
 set undodir=.undo/,~/.undo/,/tmp//
 let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -l -g ""'
 let NERDTreeShowHidden=1
+set tags^=./.git/tags;
